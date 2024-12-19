@@ -26,5 +26,5 @@ test("bad key def", () => {
   let header: IncomingHttpHeaders = { authorization: "ApiKey myKeySux" }
 
   console.log(header.authorization)
-  expect(getAPIKey(header)).toBe("myKeySu")
+  expect(getAPIKey(header)).toBe("myKeySux")
 })
