@@ -28,3 +28,4 @@ test("bad key def", () => {
   console.log(header.authorization);
   expect(getAPIKey(header)).toBe("myKeySux");
 });
+
